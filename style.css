@@ -1,0 +1,51 @@
+body{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 60px;
+    font-weight: 100;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  
+  .bar {
+    fill:lightblue;
+  }
+ 
+  .axis {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+
+
+  .x-axis{
+    font-size: 9px sans-serif;
+  }
+  
+  .axis-title {
+    fill: #888;
+    font-size: 8 px sans-serif;
+  }
+  
+  #group-by{
+    width:300px;
+
+  }
